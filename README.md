@@ -52,21 +52,15 @@ A simple RESTful Contact Management API built with **Node.js**, **Express.js**, 
 
 ### Clone the repository
 
-```bash
 git clone https://github.com/yourusername/Monica-personal-CRM.git
-```
 
 ### Go to the project folder
 
-```bash
 cd Monica-personal-CRM
-```
 
 ### Install dependencies
 
-```bash
 npm install
-```
 
 ### Create a `.env` file
 
@@ -82,9 +76,7 @@ DB_PASSWORD=YOUR_PASSWORD
 
 ### Run the project
 
-```bash
 npm start
-```
 
 ---
 
@@ -130,6 +122,32 @@ npm start
 - Managing environment variables securely
 
 ---
+
+## API Demo
+
+### Get All Contacts
+
+<img src="responseImage/contactList.JPG" width="850">
+
+### Favorite Contacts
+
+<img src="responseImage/favoriteList.JPG" width="850">
+
+### Remove Favorite
+
+<img src="responseImage/removeFavorite.JPG" width="850">
+
+### Contact Statistics
+
+<img src="responseImage/state.JPG" width="850">
+
+### Update Note
+
+<img src="responseImage/noteupdate.JPG" width="850">
+
+### Contact Table
+
+<img src="responseImage/contactTable.JPG" width="850">
 
 ## 👨‍💻 Author
 **Shariful Islam**
