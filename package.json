@@ -1,0 +1,19 @@
+{
+    "name": "monica-personal-crm",
+    "version": "1.0.0",
+    "description": "Simple Express + MSSQL app for the Contact Favorite & Notes feature",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "mssql": "^10.0.0",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.4"
+    }
+
+}
