@@ -13,11 +13,11 @@ async function getContacts(accountId, options) {
     let whereClause = 'WHERE account_id = @accountId';
 
     if(favoriteOnly){
-        whereClause += 'AND is_favorite = 1';
+        whereClause += ' AND is_favorite = 1';
     }
 
     if(search){
-        whereClause += 'AND (first_name LIKE @search OR last_name LIKE @search)';
+        whereClause += ' AND (first_name LIKE @search OR last_name LIKE @search)';
     }
 
     const allowedSortColumns = ['first_name', 'last_name', 'created_at'];
