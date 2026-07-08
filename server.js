@@ -1,6 +1,5 @@
 const express = require('express');
-const contactRoutes = require('../routes/contactRoutes');
-const { default: Message } = require('tedious/lib/message');
+const contactRoutes = require('./routes/contactRoutes');
 
 const app = express();
 app.use(express.json());
